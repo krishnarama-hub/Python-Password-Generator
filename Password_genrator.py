@@ -37,7 +37,7 @@ dicuss=False
 while dicuss!=True:
     def choice():
             global choices
-            choices=input("Enter your choice that you want a squence random genrated passowrd(s) or randowm genrated password(r): \n 's' for the squence and 'r' for the random").lower()
+            choices=input("Enter your choice that you want a squence random genrated passowrd(s) or randowm genrated password(r): \n 's' for the squence and 'r' for the random : ").lower()
             print("-"*100)
     def squence_password_genrator():
         password=[]
@@ -102,7 +102,7 @@ while dicuss!=True:
             print("-"*100)
             sign=int(input("Enter how many symbols you want in the password:"))
             print("-"*100)
-            numericals=int(input("Enter how numbers  letters you want in the password:"))
+            numericals=int(input("Enter how  letters you want in the password:"))
             print("-"*100)
             random_password_genrator()
             return
